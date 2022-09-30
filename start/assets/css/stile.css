@@ -189,7 +189,7 @@ footer a:visited {
 }
 
 hr {
-    font-style: 1px solid white;
+    border: 1px solid white;
     width: 250px;
     margin-top: 40px;
 }
