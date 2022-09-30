@@ -1,0 +1,198 @@
+/*IMPOSTAZIONI GENERALI*/
+
+html, body {
+    font-family: 'Open Sans';
+    background-color: white;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+
+h3 {
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    padding: 10px 30px 20px 30px;
+}
+
+
+/*HEADER*/
+
+header {
+    background-color: black;
+    width: 100vw;
+    text-align: center;
+    padding: 30px;
+}
+
+header div img {
+    width: 35%;
+}
+
+/*MAIN*/
+
+main {
+    width: 100vw;
+}
+
+main div:first-child {
+    padding: 10%;
+    text-align: center;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+
+main div a:link {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px 20px 40px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    
+}
+
+main div a:visited {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px 20px 40px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+main div p {
+    margin-bottom: 10px;
+}
+
+main div + div {
+    background-color: white;
+}
+
+#main {
+    margin-bottom: 25px;
+}
+
+/*---------------SECTION---------------*/
+
+
+.primaSection {
+    text-align: center;
+}
+
+
+section div img {
+    border-radius: 100%;
+}
+
+/*--------------PARTE ROSSA----------------*/
+
+.parteRossa {
+    text-align: center;
+    color: white;
+    background-color: #f04c2f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h2 {
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section h4 {
+    color: white;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+
+blockquote {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.testiBanner {
+    font-style: normal;
+}
+
+#ceo {
+    font-size: 1rem;
+    margin-top: -10px;
+}
+
+
+/*ASIDE*/
+
+.aside {
+    border: solid 1px lightgray;
+    margin: 60px 30px 60px 30px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+aside div img {
+    width: 100%;
+}
+
+/*------------------- FOOTER -------------------*/
+
+footer p {
+    margin-bottom: -30px;
+    font-size: 1rem;
+}
+
+#contattaci {
+    color: white;
+    font-size: 2rem;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    background-color: #3494c9;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+hr {
+    font-style: 1px solid white;
+    width: 250px;
+    margin-top: 40px;
+}
+
+.pixabay {
+    font-size: 0.8rem;
+}
