@@ -6,7 +6,8 @@ html, body {
     color: #393d41;
     font-size: 1.2rem;
     line-height: 1.65;
-
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
